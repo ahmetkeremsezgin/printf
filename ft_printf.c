@@ -6,11 +6,12 @@
 /*   By: asezgin <asezgin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 22:13:30 by asezgin           #+#    #+#             */
-/*   Updated: 2024/11/17 14:17:05 by asezgin          ###   ########.fr       */
+/*   Updated: 2024/11/17 15:03:40 by asezgin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+#include <stdarg.h>
 
 static int	ft_checker(char c, va_list args)
 {

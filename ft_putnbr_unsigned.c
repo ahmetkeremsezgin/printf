@@ -6,13 +6,13 @@
 /*   By: asezgin <asezgin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 22:16:53 by asezgin           #+#    #+#             */
-/*   Updated: 2024/11/17 10:12:09 by asezgin          ###   ########.fr       */
+/*   Updated: 2024/11/17 15:01:45 by asezgin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putnbr_unsigned(unsigned long int n)
+int	ft_putnbr_unsigned(unsigned int n)
 {
 	int	count;
 
